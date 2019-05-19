@@ -49,4 +49,4 @@ TODO list:
 - [ ] Provide the user with automatic conversion in case they use numbers and alphabetical characters as states
 - [ ] Make a graphical UI for it
 
-P.S.: This is my first GitHub repo, I'm welcome to ideas, issues about the program!
+P.S.: This is my first GitHub repo, I'm welcome to ideas & issues about the program!
