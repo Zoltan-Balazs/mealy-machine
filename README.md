@@ -8,7 +8,7 @@ The program is quite simple, it requires two files to be given by the user. The 
 Each line in the input file is considered one clock cycle.
 
 Example state table file:
-> -	00	01	11	10
+> \-	00	01	11	10
 > 
 > A	-	  A/0	D/1	B/-
 > 
