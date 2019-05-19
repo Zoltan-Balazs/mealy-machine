@@ -8,25 +8,39 @@ The program is quite simple, it requires two files to be given by the user. The 
 Each line in the input file is considered one clock cycle.
 
 **Example state table file:**
+
     -	00	01	11	10
+    
     A	-	  A/0	D/1	B/-
+    
     B	-	  -	  C/0	  -
+    
     C	A/1	B/0	C/-	D/1
+    
     D	B/1	C/0	D/-	A/1
 
 **Example input file:**
+
     01 11 01 00
+    
     01	11 01
+    
     11 10	11	11
+    
     00 11	10 00
 
 (Note: the input file accepts both spaces and tabulators as separting different inputs)
 
 **The output which the program gives to these files:**
+
     Solution: 
+    
     01 11 01 00          A/1
+    
     01 11 01          C/0
+    
     11 10 11 11          D/-
+    
     00 11 10 00          B/1 
 
 (Note: the program prints this solution to the screen and to the given file, it also prints each line, so the user is aware which line might contribute to it going into a neutral state)
