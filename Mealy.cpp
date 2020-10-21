@@ -158,7 +158,7 @@ void Mealy::execute(string inFilename, string outFilename) {
 
 		if (currentInput != '0' && currentInput != '1' && currentInput != '\t' && currentInput != '\n' && currentInput != ' ') {
 			outputFile << "Incorrect character in " << inFilename << " it should only contain 0s and 1s";
-			throw runtime_error("Incorrect character in " + inFilename + " it should only contain 0s and 1s";);
+			throw runtime_error("Incorrect character in " + inFilename + " it should only contain 0s and 1s");
 		}
 
 		if (currentInput == ' ' || currentInput == '\t' || currentInput == '\n' || size == static_cast<int>(inputFile.tellg())) {
